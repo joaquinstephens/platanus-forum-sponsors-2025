@@ -92,7 +92,7 @@ const Index = () => {
               </li>
               
               <li className="font-normal text-inherit">
-                <span className="text-primary font-normal">2. The Initial Push:</span> To take startups from 0 to 1, we designed a three-month program that builds urgency and accountability through Latam’s tier-1 founders. Healthy peer competition brings out the best in founders.
+                <span className="text-primary font-normal">2. The Initial Push:</span> To take startups from 0 to 1, we designed a three-month program that builds urgency and accountability through the mentorship of Latam's tier-1 founders. Healthy peer competition brings out the best in founders.
               </li>
             </ol>
           </ContentSection>
@@ -237,7 +237,7 @@ const Index = () => {
                        </a>
             </div>
              <p className="text-center text-sm font-normal text-inherit mt-4">
-               Platanus mentors backing new founders.
+               Some Platanus mentors.
              </p>
            </div>
 
