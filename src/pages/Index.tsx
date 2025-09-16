@@ -60,7 +60,7 @@ const Index = () => {
               </p>
          <div className="flex justify-end -mt-4 mb-4 pr-28">
            <img
-             src="/src/assets/buthiperconected.svg"
+             src="/assets/buthiperconected.svg"
              alt="But hyper-connected thanks to the world's second-fastest internet"
              className="max-h-16 w-auto mr-8 text-primary"
              style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }}
@@ -88,7 +88,7 @@ const Index = () => {
             
             <ol className="space-y-6 mt-6 list-none pl-2 sm:pl-6">
               <li className="font-normal text-inherit">
-                <span className="text-primary font-normal">1. <img src="/src/assets/Ad.svg" alt="Ad" className="inline-block max-h-10 w-auto mx-1 -mt-1 text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /> Venture Capital:</span> We need more talent to enter the tech world, and that requires venture funding. Latam needs less of a private-equity mindset and more of the exploratory, risk-taking mentality that's still called adventure capital. That's why we invest pre-seed, pre-product, with tickets between $50k–$250k.
+                <span className="text-primary font-normal">1. <img src="/assets/Ad.svg" alt="Ad" className="inline-block max-h-10 w-auto mx-1 -mt-1 text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /> Venture Capital:</span> We need more talent to enter the tech world, and that requires venture funding. Latam needs less of a private-equity mindset and more of the exploratory, risk-taking mentality that's still called adventure capital. That's why we invest pre-seed, pre-product, with tickets between $50k–$250k.
               </li>
               
               <li className="font-normal text-inherit">
@@ -257,7 +257,7 @@ const Index = () => {
                <p className="font-normal text-inherit">
                  Funds that have invested <span className="text-primary font-normal text-base">after</span> us:
                </p>
-               <img src="/src/assets/socialproof.svg" alt="Social proof" className="max-h-24 w-auto -mt-2 text-primary" style={{ transform: 'rotate(-7deg)', filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
+               <img src="/assets/socialproof.svg" alt="Social proof" className="max-h-24 w-auto -mt-2 text-primary" style={{ transform: 'rotate(-7deg)', filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
             </div>
             
             <div className="mt-6">
@@ -357,12 +357,12 @@ const Index = () => {
               
               <div className="bg-primary/20 border border-primary/40 rounded-lg p-4 sm:p-6 mt-6 mb-0 relative shadow-lg shadow-primary/10">
                 <p className="text-inherit font-normal">
-                  Platanus Forum will take place on Thursday, November 20th, from 09:00 to 18:00, featuring <span className="relative">speakers<img src="/src/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="absolute top-full right-0 max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /></span>, lunches, themed conversations and a closing gathering.
+                  Platanus Forum will take place on Thursday, November 20th, from 09:00 to 18:00, featuring <span className="relative">speakers<img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="absolute top-full right-0 max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /></span>, lunches, themed conversations and a closing gathering.
                 </p>
               </div>
               <div className="flex justify-end gap-2 mt-2">
-                <img src="/src/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
-                <img src="/src/assets/thiscouldbeyou.svg" alt="This could be you" className="max-h-12 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
+                <img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
+                <img src="/assets/thiscouldbeyou.svg" alt="This could be you" className="max-h-12 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
               </div>
 
               <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4 mt-6">Last Year's Event</h2>
