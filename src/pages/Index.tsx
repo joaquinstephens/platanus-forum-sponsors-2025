@@ -357,7 +357,7 @@ const Index = () => {
               
               <div className="bg-primary/20 border border-primary/40 rounded-lg p-4 sm:p-6 mt-6 mb-0 relative shadow-lg shadow-primary/10">
                 <p className="text-inherit font-normal">
-                  Platanus Forum will take place on Thursday, November 20th, from 09:00 to 18:00, featuring <span className="relative">speakers<img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="absolute top-full right-0 max-h-4 sm:max-h-5 md:max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /></span>, lunches, themed conversations and a closing gathering.
+                  Platanus Forum will take place on Thursday, November 20th, from 09:00 to 18:00, featuring <span className="relative">speakers<img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="absolute -top-2 right-0 max-h-2.5 sm:max-h-3 md:max-h-4 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /></span>, lunches, themed conversations and a closing gathering.
                 </p>
               </div>
               <div className="flex justify-end gap-1 sm:gap-2 mt-2">
