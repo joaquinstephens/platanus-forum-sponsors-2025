@@ -552,7 +552,7 @@ const Index = () => {
 
             {/* Horseback riding images grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 mt-6 mb-8">
-              <img src="/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png" alt="Evening campfire gathering in the Andes" className="w-full h-24 sm:h-28 lg:h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
+              <img src="/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png" alt="Evening campfire gathering in the Andes" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
                 src: "/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png",
                 alt: "Evening campfire gathering in the Andes"
               })} />
