@@ -593,6 +593,9 @@ const Index = () => {
             <p className="font-normal text-inherit mb-8">
               We'll cover plane tickets, transport, lodging, and the expedition.
             </p>
+            <p className="font-normal text-inherit mb-8">
+              If you are interested or want to chat a little bit more about this you can write to joaquin@platan.us or Whatsapp him at <a href="https://wa.me/56982994346?text=Hey%20Joaco,%20thanks%20for%20the%20invitation%20to%20Platanus%20Forum.%20Could%20you%20give%20me%20more%20details%3f" target="_blank" rel="noopener noreferrer" className="text-primary underline">+56 9 8299 4346</a>.
+            </p>
 
             <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Confirmed Attendees for 2025</h2>
             <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 justify-center mb-8 items-center">
