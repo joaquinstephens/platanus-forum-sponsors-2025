@@ -52,354 +52,113 @@ const Index = () => {
             </div>
           </ContentSection>
 
-          {/* Invitation Text */}
-          <ContentSection id="invitation" className="mb-8">
+          {/* Intro / Invitación principal */}
+          <ContentSection id="intro" className="mb-8">
             <div className="space-y-4">
-              <p className="text-inherit font-normal">
-                If you're reading this, it's because you were invited by <a href="https://platan.us/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Platanus</a> to a gathering in the southernmost country on the planet.
-              </p>
-         <div className="flex justify-end -mt-4 mb-4 pr-4 sm:pr-8 md:pr-16 lg:pr-28">
-           <img
-             src="/assets/buthiperconected.svg"
-             alt="But hyper-connected thanks to the world's second-fastest internet"
-             className="max-h-12 sm:max-h-14 md:max-h-16 w-auto mr-2 sm:mr-4 md:mr-6 lg:mr-8 text-primary"
-             style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }}
-           />
-         </div>
-              <img src="/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png" alt="Evening campfire gathering in the Andes" className="w-full object-cover rounded-lg" />
-            </div>
-          </ContentSection>
-
-          {/* About us */}
-          <ContentSection id="nosotros">
-            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">A bit About Us</h2>
-            <p className="font-normal text-inherit">
-              Throughout history, there have been certain space-time clusters where genius concentrates. 
-              Think Athens in the 4th century BC, Florence in the 15th, London in the 16th, or Silicon Valley now for tech and startups.
-            </p>
-            <p className="font-normal text-inherit">
-              The reasons for this kind of excess of genius are complex, but we believe a key factor is the gathering of talented people exploring ideas and building new things. 
-              This spirit is contagious, creating a positive feedback loop. Ideas get shared and improved, while talent attracts more talent.
-            </p>
-            <p className="text-base font-normal text-inherit">
-              At Platanus, our focus is to spark a nucleus of concentrated genius in Latam’s tech ecosystem. 
-              Specifically, we see three paths leading us there:
-            </p>
-            
-            <ol className="space-y-6 mt-6 list-none pl-2 sm:pl-6">
-              <li className="font-normal text-inherit">
-                <span className="text-primary font-normal">1. <img src="/assets/Ad.svg" alt="Ad" className="inline-block max-h-6 sm:max-h-8 md:max-h-10 w-auto mx-1 -mt-1 text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} /> Venture Capital:</span> We need more talent to enter the tech world, and that requires venture funding. Latam needs less of a private-equity mindset and more of the exploratory, risk-taking mentality that's still called adventure capital. That's why we invest pre-seed, pre-product, with tickets between $50k–$250k.
-              </li>
-              
-              <li className="font-normal text-inherit">
-                <span className="text-primary font-normal">2. The Initial Push:</span> To take startups from 0 to 1, we designed a three-month program that builds urgency and accountability through the mentorship of Latam's tier-1 founders. Healthy peer competition brings out the best in founders.
-              </li>
-            </ol>
-          </ContentSection>
-
-          {/* Mentor carousel - full width outside max-w-3xl constraint */}
-          <div className="w-full overflow-hidden relative mt-6 mb-4">
-            {/* Fade effects */}
-            <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none"></div>
-            <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none"></div>
-            <div className="flex gap-4 sm:gap-6 lg:gap-8" style={{
-            animation: 'scroll-mentors 40s linear infinite',
-            width: 'fit-content'
-          }}>
-                       {/* First set of mentors */}
-                       <a href="https://www.linkedin.com/in/jpcuevas/?originalSubdomain=cl" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                         <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                           <img src="/lovable-uploads/c2bcd5e5-a377-481c-a355-fb55e6ee9dbc.png" alt="Juan Pablo Cuevas" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                         </div>
-                          <p className="text-xs font-normal text-primary text-center mb-1">Juan Pablo Cuevas</p>
-                           <p className="text-xs font-normal text-inherit text-center">Cornershop by Uber</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/matamalaortiz/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/9e4d3314-470f-4b6f-b89a-0bef10eb69bd.png" alt="Alejandro Matamala" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Alejandro Matamala</p>
-                           <p className="text-xs font-normal text-inherit text-center">Runway</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/carogargon/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/d5cbc289-1d67-40bd-93ca-44832e795224.png" alt="Carolina Garcia" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Carolina Garcia</p>
-                           <p className="text-xs font-normal text-inherit text-center">Chiper</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/cristina-etcheberry-toku/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/21e6e5db-74e9-4e5d-966f-79be402d9414.png" alt="Cristina Etcheberry" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Cristina Etcheberry</p>
-                           <p className="text-xs font-normal text-inherit text-center">Toku</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/helena-polyblank/?originalSubdomain=mx" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/d88630cb-b2f6-489b-acb5-7dbf9de75ff0.png" alt="Helena Polyblank" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Helena Polyblank</p>
-                           <p className="text-xs font-normal text-inherit text-center">Mendel</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/inigorumayor/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/cd97348a-0d9d-4b9b-9a34-c7a06cd44484.png" alt="Iñigo Rumayor" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Iñigo Rumayor</p>
-                           <p className="text-xs font-normal text-inherit text-center">Arcus</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/jaime-arrieta-boetsch-ab214150/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/f16b08ff-2ca9-438d-a1b5-68c3a3b166d9.png" alt="Jaime Arrieta" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Jaime Arrieta</p>
-                           <p className="text-xs font-normal text-inherit text-center">Buk</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/pedro-pineda-fintual/?originalSubdomain=cl" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/0a9f992e-3a71-45e6-aebe-612eb9c3aeee.png" alt="Pedro Pineda" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Pedro Pineda</p>
-                           <p className="text-xs font-normal text-inherit text-center">Fintual</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/rodolfodanino/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/5ef1b37a-2f65-435e-98ab-c8d1f7ce26fb.png" alt="Rodolfo Dañino" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Rodolfo Dañino</p>
-                           <p className="text-xs font-normal text-inherit text-center">Crehana</p>
-                       </a>
-                      
-                       {/* Duplicate set for seamless loop */}
-                        <a href="https://www.linkedin.com/in/jpcuevas/?originalSubdomain=cl" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/c2bcd5e5-a377-481c-a355-fb55e6ee9dbc.png" alt="Juan Pablo Cuevas" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                          <p className="text-xs font-normal text-primary text-center mb-1">Juan Pablo Cuevas</p>
-                           <p className="text-xs font-normal text-inherit text-center">Cornershop by Uber</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/matamalaortiz/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/9e4d3314-470f-4b6f-b89a-0bef10eb69bd.png" alt="Alejandro Matamala" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Alejandro Matamala</p>
-                           <p className="text-xs font-normal text-inherit text-center">Runway</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/carogargon/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/d5cbc289-1d67-40bd-93ca-44832e795224.png" alt="Carolina Garcia" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Carolina Garcia</p>
-                           <p className="text-xs font-normal text-inherit text-center">Chiper</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/cristina-etcheberry-toku/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/21e6e5db-74e9-4e5d-966f-79be402d9414.png" alt="Cristina Etcheberry" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Cristina Etcheberry</p>
-                           <p className="text-xs font-normal text-inherit text-center">Toku</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/helena-polyblank/?originalSubdomain=mx" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/d88630cb-b2f6-489b-acb5-7dbf9de75ff0.png" alt="Helena Polyblank" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Helena Polyblank</p>
-                           <p className="text-xs font-normal text-inherit text-center">Mendel</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/inigorumayor/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/cd97348a-0d9d-4b9b-9a34-c7a06cd44484.png" alt="Iñigo Rumayor" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Iñigo Rumayor</p>
-                           <p className="text-xs font-normal text-inherit text-center">Arcus</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/jaime-arrieta-boetsch-ab214150/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/f16b08ff-2ca9-438d-a1b5-68c3a3b166d9.png" alt="Jaime Arrieta" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Jaime Arrieta</p>
-                           <p className="text-xs font-normal text-inherit text-center">Buk</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/pedro-pineda-fintual/?originalSubdomain=cl" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/0a9f992e-3a71-45e6-aebe-612eb9c3aeee.png" alt="Pedro Pineda" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Pedro Pineda</p>
-                           <p className="text-xs font-normal text-inherit text-center">Fintual</p>
-                        </a>
-                        <a href="https://www.linkedin.com/in/rodolfodanino/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                          <div className="w-30 h-30 rounded-full overflow-hidden mb-2">
-                            <img src="/lovable-uploads/5ef1b37a-2f65-435e-98ab-c8d1f7ce26fb.png" alt="Rodolfo Dañino" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                          </div>
-                           <p className="text-xs font-normal text-primary text-center mb-1">Rodolfo Dañino</p>
-                           <p className="text-xs font-normal text-inherit text-center">Crehana</p>
-                       </a>
-            </div>
-             <p className="text-center text-sm font-normal text-inherit mt-4">
-               Some Platanus mentors.
-             </p>
-           </div>
-
-           <ContentSection id="nosotros-continued">
-             <ol className="space-y-6 mt-6 list-none pl-6">
-               <li className="font-normal text-inherit">
-                 <span className="text-primary font-normal">3. Networks:</span> In the earliest stages, surrounding yourself with ambitious people is key. That’s the environment where the best startups are born. We’ve built a highly curated community of exceptional founders, with 40% of them being techies.
-               </li>
-             </ol>
-
-             <p className="text-inherit font-normal mt-8">
-               Since 2020, we’ve invested in <span className="font-normal text-inherit">114 startups</span> across{" "}
-               <span className="font-normal text-inherit">10 countries</span>, with a selection rate of less than{" "}
-               <span className="text-inherit font-normal">1%</span>.
-             </p>
-             <div className="mt-4 flex flex-col sm:flex-row items-start gap-4 sm:gap-8 md:gap-12 lg:gap-16">
-               <p className="font-normal text-inherit">
-                 Funds that have invested <span className="text-primary font-normal text-base">after</span> us:
-               </p>
-               <img src="/assets/socialproof.svg" alt="Social proof" className="max-h-16 sm:max-h-20 md:max-h-24 w-auto -mt-2 text-primary" style={{ transform: 'rotate(-7deg)', filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
-            </div>
-            
-            <div className="mt-6">
-              <div className="w-full max-w-5xl">
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
-                  {/* Row 1 */}
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/fb1e564e-7003-4c03-b5fc-1468a3db1fe9.png" alt="Bessemer Venture Partners" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/8b57f18d-6a8b-42f7-aa6d-03a1f95df7c0.png" alt="Clocktower Technology Ventures" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/fae394fd-0a3a-465a-a255-1cb2cab3abdc.png" alt="F7Prime" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/237c58b5-1181-4d80-9402-86fba20b5719.png" alt="General Catalyst" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  {/* Row 2 */}
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/f3226719-32ad-4dee-b492-f7496248e59e.png" alt="Gradient" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/07ea4355-122f-4eed-a677-c418a379e497.png" alt="Hi Ventures" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/890ad7ac-f7ba-4eb5-9674-f5fcbaba037c.png" alt="Hustle Fund" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/5bb51794-5d81-41c3-a05f-b3476b49b568.png" alt="Oak HC/FT" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  {/* Row 3 */}
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/c1613880-cae3-4ee6-8e7e-e105c927b455.png" alt="Monashees+" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/3e013926-c502-4d1f-9233-ac173326bfe1.png" alt="Propel" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/097f3a61-2dfb-4d7d-9e7a-57450fe423d8.png" alt="Wollef" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center p-1">
-                    <div className="w-32 h-32 rounded-lg overflow-hidden flex items-center justify-center bg-white p-3">
-                      <img src="/lovable-uploads/05e711ad-442b-4238-9629-bd54b8726f37.png" alt="Y Combinator" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-300" />
-                    </div>
-                  </div>
+              <p className="text-inherit font-normal text-white">Un día para juntar a nuestros <span className="text-primary">fundadores</span>, <span className="text-primary">inversionistas</span> y <span className="text-primary">amigos</span> de Platanus.</p>
+              <div className="flex justify-end">
+                <img src="/assets/unsummit.svg" alt="Un summit" className="max-h-24 w-auto" />
+              </div>
+              <img src="/lovable-uploads/Portada.jpg" alt="Platanus Forum presentation with speakers on stage" className="w-full object-cover rounded-lg" />
+              <div className="flex justify-center">
+                <div className="bg-primary/20 rounded-lg px-8 py-6 border border-primary/40 inline-block">
+                  <p className="text-lg sm:text-xl font-semibold text-white text-center">Jueves 20 de noviembre</p>
+                  <p className="text-lg sm:text-xl font-semibold text-white text-center">08:30 a 19:00</p>
+                  <p className="text-lg sm:text-xl font-semibold text-white text-center">Santiago</p>
                 </div>
               </div>
+              <div className="mt-4 flex justify-center">
+                <a href="#" className="inline-block px-4 py-2 rounded-md bg-primary text-background hover:opacity-90 transition">Confirmar asistencia</a>
+         </div>
             </div>
           </ContentSection>
 
-          {/* Platanus Forum */}
-          <ContentSection id="forum">
-            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Platanus Forum</h2>
-             <p className="font-normal text-inherit">
-               Most tech events in Latam have plenty of <em>event </em>
-               but not much <em>tech</em>. Attendees are usually investors, corporates, or ex-founders now making the conference circuit.
-             </p>
-             <p className="font-normal text-inherit">
-               At Platanus Forum, we bring together our community and aim to import to Santiago a few cells of Silicon Valley—people at the tech frontier, with fresh ideas and actively building interesting things.
-             </p>
-             
-              <div className="mt-8">
-              
-              <div className="bg-primary/20 border border-primary/40 rounded-lg p-4 sm:p-6 mt-6 mb-0 relative shadow-lg shadow-primary/10">
-                <p className="text-inherit font-normal">
-                  Platanus Forum will take place on Thursday, November 20th, from 09:00 to 18:00, featuring <span className="relative">speakers<img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="absolute -top-2 right-0 max-h-4 sm:max-h-3 md:max-h-4 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 1px currentColor) drop-shadow(0 0 1px currentColor) drop-shadow(0 0 1px currentColor) drop-shadow(0 0 2px currentColor)' }} /></span>, lunches, themed conversations and a closing gathering.
-                </p>
-              </div>
-              <div className="flex justify-end gap-1 sm:gap-2 mt-2">
-                <img src="/assets/asterisco_clean_cropped.svg" alt="Asterisk" className="max-h-4 sm:max-h-5 md:max-h-6 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
-                <img src="/assets/thiscouldbeyou.svg" alt="This could be you" className="max-h-8 sm:max-h-10 md:max-h-12 w-auto text-primary" style={{ filter: 'drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor) drop-shadow(0 0 0.5px currentColor)' }} />
-              </div>
+          {/* Detalles */}
+          <ContentSection id="detalles">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Dame más detalles de lo que es</h2>
+            <p className="font-normal text-inherit">A lo largo de la historia han existido núcleos espacio-temporales donde hay una concentración de genialidad. Piensen en Atenas siglo IV aC, Florencia siglo XV, Londres en el XVI o actualmente Silicon Valley.</p>
+            <p className="font-normal text-inherit">Esta concentración es multifactorial, pero en Platanus creemos que la reunión de personas talentosas explorando ideas y construyendo cosas nuevas juega un papel importante.</p>
+            <p className="font-normal text-inherit">Este espíritu de creación es contagioso. Las ideas se comparten y mejoran, el talento atrae más talento y se va generando un círculo virtuoso.</p>
+            <p className="font-normal text-inherit">Platanus tiene en su red a +300 fundadores, 110 inversionistas y una extensa red de amigos.</p>
+            <p className="font-normal text-primary">Hay un exceso de genialidad que debe aprovecharse y para eso esta Platanus Forum. Para que la gente en nuestra comunidad se tope, converse, fluyan las ideas y salgan nuevas oportunidades.</p>
+          </ContentSection>
 
-              <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4 mt-6">Last Year's Event</h2>
+          {/* Ya ok, ¿qué gano? */}
+          <ContentSection id="gano">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Ya ok, ¿qué gano?</h2>
+            <p className="font-normal text-inherit">Queremos que cada asistente logre tres cosas con esta concentración de personas interesantes:</p>
+            <ul className="list-disc ml-6 space-y-2 mt-4">
+              <li className="font-normal text-inherit">Salir con <span className="text-primary">ají en el c#|°</span> para construir/empujar/invertir/investigar sobre startups.</li>
+              <li className="font-normal text-inherit">Llevarse al menos una <span className="text-primary">idea, mensaje o aprendizaje</span> que pueda aplicar en su vida laboral o personal.</li>
+              <li className="font-normal text-inherit"><span className="text-primary">Nuevos contactos</span> que agreguen valor.</li>
+            </ul>
+          </ContentSection>
 
-               <p className="font-normal text-inherit mt-6 mb-4">
-                 In 2024 we gathered 200+ people, including our founders, investors, and friends. The main theme turned out to be mining (a major topic in Chile), and we brought in founders from:
-               </p>
-               <ul className="space-y-2 mb-6 list-disc ml-2 sm:ml-6">
-                 <li className="font-normal text-inherit">
-                   <a href="https://platan-dot-yamm-track.appspot.com/2knOWeIKG8tgZvQLga0F1xT31MTTvGW1mRBbuEXRalan4qc5GlAEItVS7ykkdaQLb3pwnReW47cGXocMrVggivsKF4mCpGhkkDSf0K8_---fp6bu_16qogE2KO4csBjWNMRl8PB3wxKmPl7dmnNCYcAtgOmCvJEx7WM-nWFdpmELnOpMu" className="text-primary underline decoration-primary">AstroForge</a>: asteroid mining.
-                 </li>
-                 <li className="font-normal text-inherit">
-                   <a href="https://platan-dot-yamm-track.appspot.com/2f_z8Ivpnzt0o4B7Ivc2HijGTnLJha9bi2yf5FTzzQaEBqs5GlAGVnvbvICwUEoAF47AcsqI-5l3H-0kva_dsl_VJ4QaKsVhVfkvwZMUBgA9As3yKMpYO-u87dFJ6A85_B04ILBwAzWuv3rO2j6mQz1Vy71YefIksuX2wMmwHspo" className="text-primary underline decoration-primary">EarthAI</a>: AI for exploration and drilling.
-                 </li>
-                 <li className="font-normal text-inherit">
-                   <a href="https://platan-dot-yamm-track.appspot.com/2VR8TYLuAA7D4dJSzsrbC_DugvG99wrLX7y0zHYh1izQDqs5GlAFjB3jPIpfaL91juTy4Z2ysJJ-mL7UN3vAqps45gUGTmgPGDCWpq-xjfHJhg2BjR1L3cDXP3xAuJ9oD_6G9hJ9wjOxzzZIpnQfDzcTCDpnqWv47FH3ET4SgmRin_eR6H71K5A" className="text-primary underline decoration-primary">Maverick Biometals</a>: metal extraction and processing with biotechnology.
-                 </li>
+          {/* Formato */}
+          <ContentSection id="formato">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Cuéntame sobre el formato porfa</h2>
+            <p className="font-normal text-inherit">Para lograr los objetivos debe haber un equilibrio entre:</p>
+            <ul className="list-disc ml-6 space-y-2 mt-4">
+              <li className="font-normal text-inherit"><span className="text-primary">Speakers:</span> nos gusta traer a fundadores haciendo cosas distintas a lo que vemos en el día a día en Latam.</li>
+              <li className="font-normal text-inherit"><span className="text-primary">Momentos para conocer lo que hacen los demás:</span>
+                <ul className="list-disc ml-6 mt-2 space-y-2">
+                  <li className="font-normal text-inherit"><span className="text-primary">De forma estructurada:</span> mini presentaciones de desafíos que tienen las startups del portafolio o nuestros inversionistas además de un ejemplo en vivo de nuestro famoso "Coliseo".</li>
+                  <li className="font-normal text-inherit"><span className="text-primary">De forma desestructurada:</span> desayuno, almuerzo, "recreos". <img src="/assets/akanetworking.svg" alt="a.k.a networking" className="inline-block max-h-14 w-auto ml-2 align-middle" /></li>
+                </ul>
+              </li>
+              <li className="font-normal text-inherit"><span className="text-primary">Conversaciones de la vida:</span> las mejores conexiones salen cuando se hablan trivialidades con un mocktail o una cerveza.</li>
+            </ul>
+          </ContentSection>
+
+          {/* Comunidad */}
+          <ContentSection id="comunidad">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Soy de los que necesitan saber quiénes van para convencerme</h2>
+            <p className="font-normal text-inherit">Nuestra comunidad:</p>
+            <ul className="list-disc ml-6 space-y-2 mt-4">
+              <li className="font-normal text-inherit">Fundadores del portafolio</li>
+              <li className="font-normal text-inherit">Mentores</li>
+              <li className="font-normal text-inherit">Inversionistas (LPs)</li>
+              <li className="font-normal text-inherit">Amigos (fundadores, VC, gente interesada en startups)</li>
+            </ul>
+          </ContentSection>
+
+          {/* Caras (texto simple) */}
+          <ContentSection id="caras">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">No, pero en serio, necesito ver caras</h2>
+            <p className="font-normal text-inherit">Les mandaremos la agenda una vez confirmemos a los últimos speakers y presentadores.</p>
+            
+            {/* Carrousel de mentores: Prontamente (movido aquí) */}
+            <div className="w-full overflow-hidden relative mt-6 mb-8">
+              <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none"></div>
+              <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none"></div>
+              <div className="flex gap-4 sm:gap-6 lg:gap-8" style={{ animation: 'scroll-mentors 40s linear infinite', width: 'fit-content' }}>
+                {Array.from({ length: 12 }).map((_, i) => (
+                  <div key={i} className="flex-shrink-0 w-40 flex flex-col items-center p-2">
+                    <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden mb-2 border border-primary/40 bg-muted/30 flex items-center justify-center">
+                      <span className="text-xs sm:text-sm text-primary">Prontamente</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </ContentSection>
+
+          {/* Evento del año pasado */}
+          <ContentSection id="evento-pasado">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Evento del año pasado</h2>
+            <p className="font-normal text-inherit">El año pasado juntamos a <span className="text-primary">150</span> personas de nuestra comunidad repartidos entre:</p>
+            <ul className="space-y-2 mb-6 list-disc ml-6 mt-4">
+              <li className="font-normal text-inherit">Fundadores: <span className="text-primary">52%</span></li>
+              <li className="font-normal text-inherit">LPs: <span className="text-primary">20%</span></li>
+              <li className="font-normal text-inherit">VC fund: <span className="text-primary">28%</span></li>
                </ul>
-               <p className="font-normal text-inherit mb-4">
-                 Attendees included:
-               </p>
-               <ul className="space-y-3 mb-6 list-disc ml-2 sm:ml-6">
-                 <li className="font-normal text-inherit">
-                   <span className="text-primary font-normal">Platanus Founders:</span> today our community is 300 founders from 10 Latam countries, plus the US and Europe.
-                 </li>
-                 <li className="font-normal text-inherit">
-                   <span className="text-primary font-normal">Investors:</span> our LPs (large family offices, HNWIs, and founders), other VC funds, and angels.
-                 </li>
-                 <li className="font-normal text-inherit">
-                   <span className="text-primary font-normal">Friends of Platanus:</span> mentors, other founders, prospective LPs, and generally interesting people to meet.
-                 </li>
+            <p className="font-normal text-inherit mb-2">En cuanto a los speakers, trajimos a los fundadores de:</p>
+            <ul className="space-y-2 mb-6 list-disc ml-6">
+              <li className="font-normal text-inherit"><a href="https://platan-dot-yamm-track.appspot.com/2knOWeIKG8tgZvQLga0F1xT31MTTvGW1mRBbuEXRalan4qc5GlAEItVS7ykkdaQLb3pwnReW47cGXocMrVggivsKF4mCpGhkkDSf0K8_---fp6bu_16qogE2KO4csBjWNMRl8PB3wxKmPl7dmnNCYcAtgOmCvJEx7WM-nWFdpmELnOpMu" className="text-primary underline">AstroForge</a>: minería de asteroides</li>
+              <li className="font-normal text-inherit"><a href="https://platan-dot-yamm-track.appspot.com/2f_z8Ivpnzt0o4B7Ivc2HijGTnLJha9bi2yf5FTzzQaEBqs5GlAGVnvbvICwUEoAF47AcsqI-5l3H-0kva_dsl_VJ4QaKsVhVfkvwZMUBgA9As3yKMpYO-u87dFJ6A85_B04ILBwAzWuv3rO2j6mQz1Vy71YefIksuX2wMmwHspo" className="text-primary underline">EarthAI</a>: AI para la exploración y perforación minera.</li>
+              <li className="font-normal text-inherit"><a href="https://platan-dot-yamm-track.appspot.com/2VR8TYLuAA7D4dJSzsrbC_DugvG99wrLX7y0zHYh1izQDqs5GlAFjB3jPIpfaL91juTy4Z2ysJJ-mL7UN3vAqps45gUGTmgPGDCWpq-xjfHJhg2BjR1L3cDXP3xAuJ9oD_6G9hJ9wjOxzzZIpnQfDzcTCDpnqWv47FH3ET4SgmRin_eR6H71K5A" className="text-primary underline">Maverick Biometals</a>: extracción y procesamiento de metales con biotecnología.</li>
               </ul>
-               <p className="font-normal text-inherit mb-6">
-                  For 2025, there won’t be a single central theme, but we’d love to dive into AI and unusual industries for Latam, like nuclear energy deep tech.
-               </p>
-
-              {/* Vertical Carousel */}
+            {/* Carrusel vertical (se mantiene) */}
               <div className="relative h-60 sm:h-72 lg:h-80 overflow-hidden my-8 rounded-lg">
                 {/* Top fade effect */}
                 <div className="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-background to-transparent z-10 pointer-events-none"></div>
@@ -522,98 +281,33 @@ const Index = () => {
                   </div>
                 </DialogContent>
               </Dialog>
+          </ContentSection>
 
-              <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4 mt-8">Chile Tech Week</h2>
-               <p className="font-normal text-inherit mb-4">
-                 Platanus Forum takes place during Chile Tech Week, which runs from Monday, November 17th to Sunday, November 23rd.
-               </p>
-             <p className="font-normal text-inherit mb-4">
-               That week brings together VCs and founders from across Latam—perfect for building a packed agenda.
-             </p>
-             <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Parallel Agenda</h2>
-             <p className="font-normal text-inherit mb-4">
-               Chile is a small country population-wise, but we’re fortunate to have the right connections. 
-               It’s also one of the best places in Latam to do business and innovate.
-             </p>
-             <p className="font-normal text-inherit mb-6">
-               To make the most of your trip, we can connect you and arrange meetings with whoever you’d like: corporates, investors, funds, government, legislators, founders, foundations—you name it.
-             </p>
-
-             <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Bonus: Riding the Andes</h2>
-             <p className="font-normal text-inherit mb-4">
-               The best conversations don’t happen in transactional settings like events and conferences; they happen in relaxed environments, like a walk or a horseback ride.
-             </p>
-             <p className="font-normal text-inherit mb-6">
-               Since no trip to Chile is complete without the mountains, we’re organizing a two-day, one-night horseback expedition in the Andes.
-             </p>
-             <p className="font-normal text-inherit mb-6">
-               We’re keeping it small—10 to 15 people, a mix of invited founders and other fascinating folks. We expect plenty of good conversations, asados, stunning landscapes, and a night under some of the world’s starriest skies.
-             </p>
-
-            {/* Horseback riding images grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 mt-6 mb-8">
-              <img src="/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png" alt="Evening campfire gathering in the Andes" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/e406049f-08d8-4fb0-96be-647dc626caac.png",
-                alt: "Evening campfire gathering in the Andes"
-              })} />
-              <img src="/lovable-uploads/f694ef5e-7936-469e-a570-5b7d93eafe0d.png" alt="Horseback riders under moonlight in the Andes" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/f694ef5e-7936-469e-a570-5b7d93eafe0d.png",
-                alt: "Horseback riders under moonlight in the Andes"
-              })} />
-              <img src="/lovable-uploads/73cd8f23-4bb0-41bc-8791-2a3a77e76a57.png" alt="Aerial view of horseback trail through Andes mountains" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/73cd8f23-4bb0-41bc-8791-2a3a77e76a57.png",
-                alt: "Aerial view of horseback trail through Andes mountains"
-              })} />
-              <img src="/lovable-uploads/b0fe2f32-a647-454a-8c00-215d787a9554.png" alt="Pack animals and riders in Andes mountain landscape" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/b0fe2f32-a647-454a-8c00-215d787a9554.png",
-                alt: "Pack animals and riders in Andes mountain landscape"
-              })} />
-              <img src="/lovable-uploads/85ef3029-4974-4072-81ea-b9c8ab1019ef.png" alt="Traditional outdoor meal setup during horseback expedition" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/85ef3029-4974-4072-81ea-b9c8ab1019ef.png",
-                alt: "Traditional outdoor meal setup during horseback expedition"
-              })} />
-              <img src="/lovable-uploads/2def10e0-7ce8-4976-8051-a0698c344350.png" alt="Horseback riders exploring green Andes countryside" className="w-full h-32 object-cover rounded-lg grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer hover:scale-105" onClick={() => setSelectedImage({
-                src: "/lovable-uploads/2def10e0-7ce8-4976-8051-a0698c344350.png",
-                alt: "Horseback riders exploring green Andes countryside"
-              })} />
-            </div>
-
-            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Invitation</h2>
-            <p className="font-normal text-inherit mb-4">
-              We'd love to have you join as a speaker for Platanus Forum 2025, and also for the horseback expedition if you can.
-            </p>
-            <p className="font-normal text-inherit mb-4">
-              <strong>Dates:</strong>
-            </p>
-            <ul className="list-disc list-inside font-normal text-inherit mb-4 ml-4">
-              <li><span className="text-primary">Platanus Forum</span>: Thursday, November 20th (all day).</li>
-              <li><span className="text-primary">Horseback Expedition</span>: Saturday 22nd – Sunday 23rd.</li>
-              <li><span className="text-primary">Chile Tech Week</span>: Monday 17th – Sunday 23rd.</li>
+          {/* Chile Tech Week */}
+          <ContentSection id="tech-week">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">Chile Tech Week</h2>
+            <p className="font-normal text-inherit">Platanus Forum se realiza la misma semana que la <a href="https://techweek.cl/" target="_blank" rel="noopener noreferrer" className="text-primary underline">Chile Tech Week</a>, que va del lunes 17 al domingo 23 de noviembre.</p>
+            <p className="font-normal text-inherit mt-4">En esta semana se congregan VC y fundadores de todo Latam, destacando:</p>
+            <ul className="list-disc ml-6 space-y-2 mt-4">
+              <li className="font-normal text-inherit">Nuestra <a href="https://hack.platan.us/" target="_blank" rel="noopener noreferrer" className="text-primary underline">Platanus Hack</a></li>
+              <li className="font-normal text-inherit"><a href="https://cumbreacvc.cl/" target="_blank" rel="noopener noreferrer" className="text-primary underline">Cumbre ACVC</a></li>
+              <li className="font-normal text-inherit"><a href="https://www.emprendetumente.org/programa-2024" target="_blank" rel="noopener noreferrer" className="text-primary underline">ETM Day</a></li>
+              <li className="font-normal text-inherit">Side events de VCs y startups.</li>
             </ul>
-            <p className="font-normal text-inherit mb-8">
-              We'll cover plane tickets, transport, lodging, and the expedition.
-            </p>
-            <p className="font-normal text-inherit mb-8">
-              If you are interested or want to chat a little bit more about this you can write to joaquin@platan.us or Whatsapp him at <a href="https://wa.me/56982994346?text=Hey%20Joaco,%20thanks%20for%20the%20invitation%20to%20Platanus%20Forum.%20Could%20you%20give%20me%20more%20details%3f" target="_blank" rel="noopener noreferrer" className="text-primary underline">+56 9 8299 4346</a>.
-            </p>
+          </ContentSection>
 
-            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-4">Confirmed Attendees for 2025</h2>
-            <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 justify-center mb-8 items-center">
-              <a href="https://www.linkedin.com/in/ignacio-belieres-montero-14b457b6/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 sm:w-48 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden mb-3">
-                  <img src="/lovable-uploads/4ca3c16b-eb9a-4fb0-a1a9-f6b1174d0aec.png" alt="Ignacio Belieres" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+          {/* Fecha y hora */}
+          <ContentSection id="fecha">
+            <h2 className="text-xl sm:text-2xl font-semibold text-primary mb-6">No retuve la fecha y hora</h2>
+            <div className="flex justify-center">
+              <div className="bg-primary/20 rounded-lg px-8 py-6 border border-primary/40 inline-block">
+                <p className="text-lg sm:text-xl font-semibold text-white text-center">Platanus Forum será el jueves 20 de noviembre 2025</p>
+                <p className="text-lg sm:text-xl font-semibold text-white text-center">de 08:30 a 19:00</p>
+                <p className="text-lg sm:text-xl font-semibold text-white text-center">Santiago (lugar por confirmar)</p>
                 </div>
-                <p className="text-sm sm:text-base font-medium text-primary text-center mb-1">Ignacio Belieres</p>
-                <p className="text-sm font-normal text-inherit text-center">Epic Aerospace</p>
-              </a>
-              <a href="https://www.linkedin.com/in/roman-teslyuk-a344881a/" target="_blank" rel="noopener noreferrer" className="flex-shrink-0 w-40 sm:w-48 flex flex-col items-center p-2 hover:scale-105 transition-transform duration-300">
-                <div className="w-32 h-32 sm:w-40 sm:h-40 rounded-full overflow-hidden mb-3">
-                  <img src="/lovable-uploads/3add01c8-aff6-4ac5-b726-588ba0a5cd4a.png" alt="Roman Teslyuk" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
-                </div>
-                <p className="text-sm sm:text-base font-normal text-primary text-center mb-1">Roman Teslyuk</p>
-                <p className="text-sm font-normal text-inherit text-center">Earth AI</p>
-              </a>
             </div>
+            <div className="mt-4 flex justify-center">
+              <a href="#" className="inline-block px-4 py-2 rounded-md bg-primary text-background hover:opacity-90 transition">Confirmar asistencia</a>
             </div>
           </ContentSection>
 
