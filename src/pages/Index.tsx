@@ -306,7 +306,7 @@ const Index = () => {
                 <p className="text-lg sm:text-xl font-semibold text-white text-center">Santiago (lugar por confirmar)</p>
                 </div>
             </div>
-            <div className="mt-4 flex justify-center">
+            <div className="mt-12 flex justify-center">
               <a href="#" className="inline-block px-4 py-2 rounded-md bg-primary text-background hover:opacity-90 transition">Confirmar asistencia</a>
             </div>
           </ContentSection>
