@@ -107,7 +107,7 @@ const Index = () => {
           </div>
           <div className="space-y-4">
               <p>
-                Platanus Forum es un día para que la gente en nuestra comunidad se tope, converse, fluyan las ideas y salgan nuevas oportunidades para crear/impulsar/invertir/investigar sobre startups y tecnología
+                Platanus Forum es <span className="text-primary">un día para que la gente en nuestra comunidad se tope, converse, fluyan las ideas y salgan nuevas oportunidades para crear/impulsar/invertir/investigar sobre startups y tecnología.</span>
               </p>
               <p>
                 Para lograr este objetivo el evento debe tener un equilibrio entre:
