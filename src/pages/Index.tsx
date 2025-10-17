@@ -78,21 +78,6 @@ const Index = () => {
               </li>
               </ol>
               
-              {/* Carrousel de mentores */}
-            <div className="w-full overflow-hidden relative mt-6 mb-8">
-              <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-background to-transparent z-10 pointer-events-none"></div>
-              <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-background to-transparent z-10 pointer-events-none"></div>
-              <div className="flex gap-4 sm:gap-6 lg:gap-8" style={{ animation: 'scroll-mentors 40s linear infinite', width: 'fit-content' }}>
-                {Array.from({ length: 12 }).map((_, i) => (
-                  <div key={i} className="flex-shrink-0 w-40 flex flex-col items-center p-2">
-                    <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full overflow-hidden mb-2 border border-primary/40 bg-muted/30 flex items-center justify-center">
-                      <span className="text-xs sm:text-sm text-primary">Prontamente</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              </div>
-              
               <ol className="list-decimal list-inside space-y-3 ml-4 [&>li::marker]:text-primary" start="3">
                 <li>
                   <span className="text-primary">Redes</span>: En las etapas más tempranas, rodearse de gente ambiciosa es clave. En ese ambiente nacen las mejores startups. Hemos construido una comunidad altamente curada de fundadores excepcionales, de los cuales un 40% son técnicos.
