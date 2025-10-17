@@ -192,3 +192,9 @@ All colors MUST be HSL.
     --scroll-duration: 20s;
   }
 }
+
+.sponsor-package-bg {
+  background-color: #1a1a1a;
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
