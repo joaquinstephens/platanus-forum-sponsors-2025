@@ -114,7 +114,7 @@ const Index = () => {
               </p>
               <ul className="list-disc list-inside space-y-4 ml-4">
                 <li>
-                  <span className="text-primary">Fire chats</span>: nos gusta traer a fundadores haciendo cosas distintas a lo que vemos en el día a día en Latam. Para esta versión contamos con:
+                  <span className="text-primary">Fireside chats</span>: nos gusta traer a fundadores haciendo cosas distintas a lo que vemos en el día a día en Latam. Para esta versión contamos con:
                   
                   {/* Speaker Profiles */}
                   <div className="grid grid-cols-2 gap-8 mt-8 mb-6">
@@ -177,7 +177,7 @@ const Index = () => {
                         </a>
                       </p>
                       <p className="text-sm text-foreground/80 leading-relaxed text-center">
-                        Grupalia es <em>rising start</em> de nuestro portafolio. Otorgan créditos grupales a comunidades de micro empresarios en México.
+                        Grupalia es <em>rising star</em> de nuestro portafolio. Otorgan créditos grupales a comunidades de micro empresarios en México.
                       </p>
                     </div>
                     
@@ -212,7 +212,7 @@ const Index = () => {
                     <li>
                       Ejemplo en vivo de nuestro famoso "Coliseo": dos de nuestros mentores reciben preguntas de fundadores del público y dan consejos sobre el asunto.
                     </li>
-                  </ul>
+            </ul>
                   
                   {/* Mentor Profiles */}
                   <div className="grid grid-cols-2 gap-6 mt-6 mb-4">
@@ -248,12 +248,12 @@ const Index = () => {
                   
                 </li>
                 <li>
-                  <span className="text-primary">Momentos para conocer lo que hacen los demás de forma "desestructurada"</span>: desayuno, almuerzo en mesas con puestos designados, "recreos".
+                  <span className="text-primary">Momentos para conocer lo que hacen los demás de forma "desestructurada"</span>: desayuno, almuerzo en mesas con puestos designados, tiempos libres.
                 </li>
                 <li>
                   <span className="text-primary">Conversaciones de la vida</span>: las mejores conexiones se dan en ambientes más relajados, como en un cocktail para finalizar el evento.
-                </li>
-              </ul>
+              </li>
+            </ul>
             </div>
           </ContentSection>
 
@@ -266,7 +266,7 @@ const Index = () => {
                 <li>Mentores.</li>
                 <li>Inversionistas (Family Offices, HNWI, inversionistas ángeles y fondos de VC)</li>
                 <li>Amigos (otros fundadores y gente interesada en el mundo startups)</li>
-              </ul>
+            </ul>
               <p>Las edades van desde los 20 a los 50 años, todos con conexiones en el mundo de startups y actuales o futuros tomadores de decisión.</p>
             </div>
           </ContentSection>
