@@ -71,16 +71,16 @@ const Index = () => {
               </p>
               <ol className="list-decimal list-inside space-y-3 ml-4 [&>li::marker]:text-primary">
                 <li>
-                  <span className="text-primary">Venture Capital</span>: Necesitamos que más talento entre al mundo tech, y eso requiere financiamiento de riesgo. Por eso invertimos en etapas pre-semilla, incluso pre-producto, con tickets entre USD $50k–$250k.
+                  <span className="text-primary">Venture Capital</span>: más talento debe entrar al mundo tech y eso requiere inversión de venture capital. Platanus invierte tickets de USD $50k–$250k en Pre Seed y Seed.
                 </li>
                 <li>
-                  <span className="text-primary">El Impulso Inicial</span>: Para ayudar a las startups a pasar de 0 a 1, diseñamos un programa de tres meses que genera urgencia y accountability a través de la mentoría de fundadores top de Latam.
+                  <span className="text-primary">El Impulso Inicial</span>: diseñamos un programa de 3 meses que genera urgencia y accountability a través de la mentoría de fundadores top de Latam.
               </li>
               </ol>
               
               <ol className="list-decimal list-inside space-y-3 ml-4 [&>li::marker]:text-primary" start="3">
                 <li>
-                  <span className="text-primary">Redes</span>: En las etapas más tempranas, rodearse de gente ambiciosa es clave. En ese ambiente nacen las mejores startups. Hemos construido una comunidad altamente curada de fundadores excepcionales, de los cuales un 40% son técnicos.
+                  <span className="text-primary">Redes</span>: en etapas tempranas, rodearse de gente ambiciosa crea un ambiente donde nacen las mejores startups. Hemos construido una comunidad altamente curada de fundadores excepcionales, de los cuales un 40% son técnicos.
                 </li>
               </ol>
               <p>
@@ -210,7 +210,7 @@ const Index = () => {
                       Conoce las startups del portafolio: presentaciones de 10 - 15 minutos de avances y retos tecnológicos que han tenido startups de nuestro portafolio.
                     </li>
                     <li>
-                      Ejemplo en vivo de nuestro famoso "Coliseo": dos de nuestros mentores reciben preguntas de fundadores del público y dan consejos sobre el asunto.
+                      Ejemplo en vivo de nuestro famoso "Coliseo": dos de nuestros mentores reciben preguntas de fundadores del público y dan consejos estratégicos.
                     </li>
             </ul>
                   
@@ -254,6 +254,80 @@ const Index = () => {
                   <span className="text-primary">Conversaciones de la vida</span>: las mejores conexiones se dan en ambientes más relajados, como en un cocktail para finalizar el evento.
               </li>
             </ul>
+            </div>
+          </ContentSection>
+
+          <ContentSection id="agenda" className="mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-6">🗓️ Agenda</h2>
+            <div className="space-y-4">
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">08:30 - 09:30</span>
+                  <span className="text-foreground">Desayuno</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">09:30 - 09:50</span>
+                  <span className="text-foreground">Apertura con palabras de Platanus</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">09:50 - 10:00</span>
+                  <span className="text-foreground">Palabras de Exclusive Partner</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">10:00 - 11:00</span>
+                  <span className="text-foreground">Fireside chat with Roman Tesluyk</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">11:00 - 12:00</span>
+                  <span className="text-foreground">Coliseo en vivo (Pedro confirmado)</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">12:00 - 13:00</span>
+                  <span className="text-foreground">Fireside chat with Rogelio Rea</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">13:00 - 14:30</span>
+                  <span className="text-foreground">Almuerzo</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">14:30 - 15:30</span>
+                  <span className="text-foreground">Fireside chat with Tomás Ocampo Tesluyk</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">15:30 - 16:30</span>
+                  <span className="text-foreground">Conoce a nuestras startups:</span>
+                </div>
+                <div className="ml-6 space-y-2">
+                  <div className="flex items-start gap-3">
+                    <span className="text-primary font-semibold min-w-[80px]">15:30 - 15:40</span>
+                    <span className="text-foreground">El Cero KM</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-primary font-semibold min-w-[80px]">15:40 - 15:50</span>
+                    <span className="text-foreground">Felz</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-primary font-semibold min-w-[80px]">15:50 - 16:00</span>
+                    <span className="text-foreground">Kunzapp</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-primary font-semibold min-w-[80px]">16:00 - 16:10</span>
+                    <span className="text-foreground">Puente</span>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-primary font-semibold min-w-[80px]">16:10 - 16:20</span>
+                    <span className="text-foreground">50x</span>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">16:30 - 17:30</span>
+                  <span className="text-foreground">Fireside chat with Ignacio Beliers</span>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-primary font-semibold min-w-[80px]">18:30 - 22:00</span>
+                  <span className="text-foreground">Cocktail de cierre</span>
+                </div>
+              </div>
             </div>
           </ContentSection>
 
@@ -416,6 +490,19 @@ const Index = () => {
                   </div>
                 </DialogContent>
               </Dialog>
+          </ContentSection>
+
+          {/* ¿De qué me sirve ser sponsor? */}
+          <ContentSection id="beneficios-sponsor" className="mb-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-6">🤔 ¿De qué me sirve ser sponsor?</h2>
+            <div className="space-y-4">
+              <p>
+                Al ser un evento privado y exclusivo, todos los asistentes están fuertemente ligados al ambiente tech y de startups, ya sea como fundadores, operadores o inversionistas.
+              </p>
+              <p>
+                Es una forma de posicionar la marca junto a personas actual o próximamente influyentes (tomadores de decisión) dentro del mundo tecnológico.
+              </p>
+            </div>
           </ContentSection>
 
           {/* Paquetes para sponsors */}
